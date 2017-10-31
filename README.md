@@ -54,5 +54,3 @@ Version|Date|Comments
 This Web Part illustrates the following concepts on top of the SharePoint Framework:
 
 - How to leverage the capabilities of SharePoint webhooks.
-
-<img src="https://telemetry.sharepointpnp.com/sp-dev-fx-webparts/samples/react-webhooks-realtime" />
