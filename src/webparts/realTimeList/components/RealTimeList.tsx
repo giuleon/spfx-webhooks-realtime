@@ -61,7 +61,7 @@ export default class RealTimeList extends React.Component<IRealTimeListProps, IR
   }
 
   public render(): React.ReactElement<IRealTimeListProps> {
-    if (this.props.siteUrl.toLowerCase().indexOf("wwww.contoso.com") >= 0 
+    if (this.props.siteUrl.toLowerCase().indexOf("wwww.contoso.com") >= 0
       || this.props.socketserverurl === undefined || this.props.socketserverurl === "") {
       return (
         <div className={styles.realTimeList}>
@@ -164,7 +164,7 @@ export default class RealTimeList extends React.Component<IRealTimeListProps, IR
         key: item.Id,
         name: item.Title,
         description: item.SPFxDescription
-      }
+      };
     });
     this.setState({
       sortedItems: _items,
